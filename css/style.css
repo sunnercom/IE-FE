@@ -1,8 +1,10 @@
-
-
+/* core styles */
+.container{
+    max-width: 1360px;
+    margin: 0 auto;
+}
 
 /* header start */
-
 .logo {
     margin-right: 351px;
 }
@@ -26,4 +28,9 @@
     border: none;
     background: transparent;
     outline: none;
+}
+
+/* intro section (header) */
+.main .intro {
+    background-image: url(../images/intro-bg.jpg);
 }
