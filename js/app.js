@@ -1,19 +1,17 @@
 document.addEventListener("DOMContentLoaded", function() {
-    var signupForm = document.getElementById("signup-form");
+    let signupForm = document.getElementById("signup-form");
   
     signupForm.addEventListener("submit", function(event) {
-      event.preventDefault(); // Saqlanishni to'xtatish
+      event.preventDefault();
   
-      var name = document.getElementById("name").value;
-      var email = document.getElementById("number").value;
-      var password = document.getElementById("email").value;
-  
-      // Foydalanuvchi ma'lumotlarini console-da chiqarish
+      let name = document.getElementById("name").value;
+      let number = document.getElementById("number").value;
+      let email = document.getElementById("email").value;
+
       console.log("Ism:", name);
-      console.log("raqam:", email);
-      console.log("email:", password);
+      console.log("raqam:", number);
+      console.log("email:", email);
   
-      // Ma'lumotlar to'g'ri ko'rsatilsa, ro'yhatdan o'tilgan deb tasdiqlang
       alert("Ro'yhatdan o'tildi!");
     });
   });
