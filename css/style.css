@@ -1,0 +1,29 @@
+
+
+
+/* header start */
+
+.logo {
+    margin-right: 351px;
+}
+
+.nav-link {
+    color: var(--txt-black, #282828);
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 130%;
+    margin-left: 32px;
+}
+
+.nav-link:hover{
+    color: rgb(254, 3, 246);  
+}
+
+.sgg {
+    margin-left: 39px;
+    text-align: center;
+    border: none;
+    background: transparent;
+    outline: none;
+}
