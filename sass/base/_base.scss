@@ -1,0 +1,70 @@
+/* Core style */
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	text-decoration: none;
+	line-height: 1.2;
+}
+
+textarea:focus,
+select:focus {
+	outline: none !important;
+	-webkit-appearance: none;
+	box-shadow: none !important;
+}
+
+button {
+	border: none;
+	background: none;
+}
+
+input:focus {
+	outline: none !important;
+}
+
+a:active,
+a:focus {
+	outline: 0;
+	border: none;
+	-moz-outline-style: none;
+}
+.wrapper {
+	overflow: hidden;
+}
+
+.in-one::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  
+.in-one::-ms-input-placeholder { /* Edge 12-18 */
+    color: white;
+  }
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}

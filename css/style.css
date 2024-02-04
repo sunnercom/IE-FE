@@ -102,8 +102,6 @@ input[type=number] {
     color: var(--txt-black, #282828);
     font-size: 64px;
     font-weight: 700;
-    line-height: 110%;
-    margin-bottom: 40px;
     padding-right: 32px;
 }
 
@@ -118,9 +116,14 @@ input[type=number] {
     gap: 10px;
     border-radius: var(--radius-small, 6px);
     border: 1px solid var(--grey-divider, #DDD);
+    width: 150px;
 }
 
 /*  */
+.gallery-im {
+    margin-bottom: 80px;
+}
+
 .gal-img {
     margin-right: 32px;
     margin-bottom: 16px;
@@ -132,6 +135,7 @@ input[type=number] {
     font-size: 20px;
     font-weight: 500;
     line-height: 130%;
+    width: 316px;
 }
 
 /*  */
@@ -180,6 +184,15 @@ input[type=number] {
     outline: none;
     padding-right: 32px;
 }
+
+.in-one::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  
+.in-one::-ms-input-placeholder { /* Edge 12-18 */
+    color: white;
+  }
 
 .passive {
     margin-bottom: 32px;
@@ -245,3 +258,25 @@ input[type=number] {
     margin-bottom: 32px;
     margin-left: 40px;
 }
+
+
+.timer {
+    font-size: 2em;
+    text-align: center;
+  }
+  
+  #hours, #minutes, #seconds {
+    display: inline-block;
+    min-width: 50px;
+  }
+
+  .counter {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #countDisplay {
+    font-size: 2em;
+    margin: 10px;
+  }
+  
